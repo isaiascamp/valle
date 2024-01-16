@@ -1,0 +1,144 @@
+body {
+  font-family: Agave nerd font, 'Monaco' , sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b6857d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  background: #361c18;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+  padding: 2rem;
+}
+
+.content a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #531f0a;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  width: auto;
+  height: 97px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+}
+
+nav ul {
+
+	list-style-type: none;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+nav ul li {
+
+	display: inline-block;
+
+	margin-right: 10px;
+
+}
+
+
+nav ul li a {
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+.navbar {
+
+  background-color: #8B4513; /* Brown color */
+
+  overflow: hidden;
+
+}
+
+
+.navbar a {
+
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+
+.navbar a:hover {
+
+  background-color: #333;
+
+}
+.fondo { 
+  background-image: url('A\ fun\ look\ at\ Key\ Ministry\'s\ work\ with\ churches\ in\ 2018\ —\ Key\ Ministry.jpeg');
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: fixed;
+  width: auto; 
+  height: 320px;
+}
+.fondo img {
+  width: 530px;
+}
+
+img{
+  width: 1130px;
+}
+
+.esp {
+  height: 320px;
+}
